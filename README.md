@@ -125,6 +125,7 @@ endif;
   ```
 
 *step 4*
+
   Customize structure_search.php
   about line 96,  include your own file here. 
   It depends which template you choose, you need to put your own file under your chosen template folder.
@@ -134,6 +135,7 @@ endif;
 ```
 
 *step 5*
+
   Create your own php/JS/HTML file under your  template folder
   All WP templates is under /wordpress/wp-content/themes/ folder.
   
@@ -157,5 +159,4 @@ get_header(); ?>
   
 
 
-*step 5*
   
