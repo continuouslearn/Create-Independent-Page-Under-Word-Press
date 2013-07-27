@@ -157,6 +157,20 @@ get_header(); ?>
 
 ```
   
+*last step*
+  
+  Create  a menu link to this page
+  You need to create a page, for example: search, then WP will give a link like:
+  http://yourdomain.com/wordpress/search
+  
+  You want link this url to your page
+  http://yourdomain.com/wordpress/structure_search.php
+  
+  Then add a RewriteRule into .htaccess
+```
+RewriteRule search http://yourdomain.com/wordpress/structure_search.php [L]
+```
 
+That's it. Enjoy!
 
   
